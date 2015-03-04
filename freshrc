@@ -47,6 +47,7 @@ fresh-options --file
   fresh config/gitignore
   fresh config/slate
   fresh config/tmux.conf
+  fresh jasoncodes/dotfiles config/pryrc
 
   fresh jamesottaway/.osx .osx --ref=jamesbookpro
 fresh-options
@@ -116,3 +117,8 @@ fresh Yelp/osxcollector osxcollector/osxcollector.py --bin
 
 fresh lib/pure
 fresh sindresorhus/pure pure.zsh --file=zsh/pure/prompt_pure_setup
+
+fresh georgebrock/1pass . --file=1pass/
+fresh bin/1pass --bin
+
+fresh lib/fasd
